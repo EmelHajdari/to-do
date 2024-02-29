@@ -18,7 +18,7 @@ export const TodoForm = ({ addTodo }) => {
         value={value}
         onChange={(e) => setValue(e.target.value)}
         className="todo-input"
-        placeholder="Add new Task"
+        placeholder="Add New Task"
       />
       <button type="submit" className="todo-btn">
         Add Task
