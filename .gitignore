@@ -1,0 +1,25 @@
+# Direktoritë
+node_modules/
+
+# Filet
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Konfigurimet
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Krijimet nga IDE-të
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Filet e ndryshimeve të cilat gjenerohen automatikisht
+.DS_Store
+Thumbs.db
